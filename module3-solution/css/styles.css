@@ -1,0 +1,16 @@
+.navbar-default .navbar-nav {
+    background-color: #fee;
+    text-align: center;
+}
+
+#contenido {
+	width: 95%;
+}
+#contenido .texto {
+    height: 10000px;
+    background-color: green;
+}
+.navbar {
+    background-color: lightgoldenrodyellow;
+    border-bottom: 1px solid gray;
+}
