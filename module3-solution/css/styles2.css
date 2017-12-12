@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+.navbar-default .navbar-nav {
+    background-color: #fee;
+    text-align: center;
+}
+#contenido {
+	width: 100%;
+}
+#contenido .texto {
+    height: 700px;
+    margin: 10px;
+    background-color: pink;
+}
+#chicken, #beef, #sushi {
+	position: relative;	
+}
+
+.pie {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding-bottom: 20px;
+    padding-right: 40px;
+
+}
+.navbar {
+    background-color: lightgoldenrodyellow;
+    border-bottom: 1px solid gray;
+}
