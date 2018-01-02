@@ -8,8 +8,10 @@
     <script src="app.js"></script>
     <style>
       .message { font-size: 1.3em; font-weight: bold; }
-      .green {color: green; border: 1px solid green;}
-      .red {color: red; border: 1px solid red;}
+      .message.green {color: green;}
+      .message.red {color: red;}
+      #lunch-menu.green {border: 1px solid green;}
+      #lunch-menu.red {border: 1px solid red;}
     </style>
   </head>
 <body ng-app="LunchCheck">
@@ -19,7 +21,7 @@
          <div class="form-group">
              <input id="lunch-menu" type="text"
              placeholder="list comma separated dishes you usually have for lunch"
-             class="form-control" ng-model="lista">
+             class="form-control" ng-model="lista" ng-class="listStyle">
              <!-- I'm not considering empty items, nor items that are just spaces -->
          </div>
          <div class="form-group">

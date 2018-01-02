@@ -14,10 +14,12 @@ function LunchCheckController($scope) {
   $scope.checkIfTooMuch =  function () {
       $scope.items = numberOfItems($scope.lista);
       $scope.messageStyle = "green";
+      $scope.listStyle = "green";
 
       if ($scope.lista == "" || $scope.items == 0  ) {
         $scope.mensaje = "Please enter data first";
         $scope.messageStyle = "red";
+        $scope.listStyle = "red";
       } else {
 
         if ($scope.items <=3 ) {
